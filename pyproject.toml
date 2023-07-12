@@ -9,6 +9,16 @@ keywords = ["webscraping", "concurrent", 'asynchronous']
 authors = [
   {name = "Livin Nector", email = "livinnector2001@gmail.com" } 
 ]
+dependencies = [ # Optional
+  "bs4",
+  "requests",
+  "aiohttp",
+  "yarl"
+]
+
+[project.optional-dependencies] # Optional
+dev = ["black","ipykernel"]
+test = ["pytest","pytest-asyncio"]
 
 [tool.pytest.ini_options]
 pythonpath = [
