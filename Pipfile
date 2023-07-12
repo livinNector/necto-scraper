@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bs4 = "*"
+aiohttp = "*"
+requests = "*"
+yarl = "*"
+
+[dev-packages]
+black = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
